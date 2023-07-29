@@ -1,3 +1,5 @@
 sunpy[all]
 dkist
 sunpy-soar
+ipywidgets
+sunraster
