@@ -3,3 +3,4 @@ dkist
 sunpy-soar
 ipywidgets
 sunraster
+astroquery
