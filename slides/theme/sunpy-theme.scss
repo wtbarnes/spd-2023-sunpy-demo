@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+$sunpy-yellow: #FED20B;
+$sunpy-orange: #FE7900;
+$sunpy-grey: #444444;
+$body-bg: #ffffff;
+$body-color: $sunpy-grey;
+$presentation-heading-color: $sunpy-orange;
+$link-color: $sunpy-orange;
+$code-color: $sunpy-orange;
+$presentation-title-slide-text-align: right;
+$font-family-sans-serif: "Roboto", sans-serif;
+$body-text-margin: 3vw;
+$title-body-text-margin: 3vw;
+
+/*-- scss:rules --*/
+section.quarto-title-block h1.title, p.subtitle, div.quarto-title-authors {
+  margin-right: $title-body-text-margin;
+  margin-left: $title-body-text-margin;
+}
+
+section.slide h1 {
+  text-align: center;
+}
+
+section.slide h2 {
+  color: $sunpy-grey !important;
+  background-color: $sunpy-yellow !important;
+  text-align: right;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 0.1em solid $sunpy-orange;
+}
+
+section.slide p, li, div.cell {
+  margin-right: $body-text-margin;
+  margin-left: $body-text-margin;
+}

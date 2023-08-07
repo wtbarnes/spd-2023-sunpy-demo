@@ -1,0 +1,65 @@
+---
+title: An Example SunPy Presentation
+subtitle: Conference / Location / Date
+authors:
+- A. Speaker
+- B. Presenter
+- The SunPy Project
+institute:
+- Example University
+- NASA
+format:
+  revealjs:
+    margin: 0
+    width: 100%
+    height: 100%
+    theme: [default, theme/sunpy-theme.scss]
+    logo: static/sunpy_logo_landscape.svg
+    footer: "[wtbarnes.github.io/sunpy-presentation-template](https://wtbarnes.github.io/sunpy-presentation-template)"
+title-slide-attributes: 
+  data-background-image: static/sunpy_icon.svg
+  data-background-position: -100% 50%
+  data-background-opacity: 50%
+  data-background-size: 80%
+---
+```{python}
+#| echo: false
+#| eval: true
+import os
+os.environ["PARFIVE_HIDE_PROGRESS"] = "True"
+```
+
+# The `sunpy` Package
+
+---
+
+![](static/tour.svg){height="750"}
+
+## The package includes...
+
+- Data search and retrieval
+- Data structures for timeseries and image data
+- Coordinate frames and conversions
+- and much more!
+
+## Another slide with a plot inline
+
+```{python}
+#| fig-align: center
+import sunpy.map
+import sunpy.data.sample
+
+m = sunpy.map.Map(sunpy.data.sample.AIA_171_IMAGE)
+m.peek()
+```
+
+## You can also include code
+
+The code below shows how to create a coordinate in the same frame as the map shown before.
+```{python}
+# | echo: true
+import astropy.coordinates
+import astropy.units as u
+my_coord = astropy.coordinates.SkyCoord(Tx=300*u.arcsec, Ty=500*u.arcsec, frame=m.coordinate_frame)
+print(my_coord)
+```
