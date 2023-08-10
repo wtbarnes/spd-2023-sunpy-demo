@@ -130,3 +130,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.history/
+eui-hri-loops.mp4
