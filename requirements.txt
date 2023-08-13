@@ -1,6 +1,6 @@
-sunpy[all]
-dkist
-sunpy-soar
-ipywidgets
-sunraster
 astroquery
+dkist
+ipywidgets
+sunpy-soar
+sunpy[all]
+sunraster

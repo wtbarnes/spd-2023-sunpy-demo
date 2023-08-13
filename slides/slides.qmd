@@ -16,7 +16,7 @@ format:
     theme: [default, theme/sunpy-theme.scss]
     logo: static/sunpy_logo_landscape.svg
     footer: "[wtbarnes.github.io/sunpy-presentation-template](https://wtbarnes.github.io/sunpy-presentation-template)"
-title-slide-attributes: 
+title-slide-attributes:
   data-background-image: static/sunpy_icon.svg
   data-background-position: -100% 50%
   data-background-opacity: 50%
