@@ -22,7 +22,8 @@ We'll be running a Slido to gather feedback in real time from the audience.
 With the free plan, we can only have three questions and one being live at a time.
 The feedback will be targeted towards the project overall, not necessarily specifically towards the presentation.
 
-Public link is: <https://app.sli.do/event/6GSTGFUgR2PWhSC4gyAbNB>
+Public link is: <https://bit.ly/sunpyspd2023>
+With QR code: ![https://bit.ly/sunpyspd2023](bit.ly_sunpyspd2023.png)
 
 Questions are currently:
 
