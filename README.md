@@ -23,6 +23,7 @@ With the free plan, we can only have three questions and one being live at a tim
 The feedback will be targeted towards the project overall, not necessarily specifically towards the presentation.
 
 Public link is: <https://bit.ly/sunpyspd2023>
+
 With QR code: ![https://bit.ly/sunpyspd2023](bit.ly_sunpyspd2023.png)
 
 Questions are currently:
