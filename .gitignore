@@ -1,3 +1,6 @@
+slides/slides_files
+slides/slides.html
+
 *.fits
 *.asdf
 *.mp4

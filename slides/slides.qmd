@@ -1,13 +1,17 @@
 ---
-title: An Example SunPy Presentation
-subtitle: Conference / Location / Date
+title: Multi-instrument Data Analysis Workflows with the SunPy Ecosystem
+subtitle: AAS SPD Meeting / University of Minnesota, Minneapolis, MN / 14 August 2023
 authors:
-- A. Speaker
-- B. Presenter
+- Will Barnes
+- Stuart Mumford
+- Nabil Freij
+- Laura Hayes
 - The SunPy Project
 institute:
-- Example University
-- NASA
+- AU/NASA GSFC
+- Aperio Software
+- BAERI/LMSAL
+- ESA
 format:
   revealjs:
     margin: 0
@@ -15,51 +19,49 @@ format:
     height: 100%
     theme: [default, theme/sunpy-theme.scss]
     logo: static/sunpy_logo_landscape.svg
-    footer: "[wtbarnes.github.io/sunpy-presentation-template](https://wtbarnes.github.io/sunpy-presentation-template)"
+    footer: "[bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023)"
 title-slide-attributes:
   data-background-image: static/sunpy_icon.svg
   data-background-position: -100% 50%
   data-background-opacity: 50%
   data-background-size: 80%
 ---
-```{python}
-#| echo: false
-#| eval: true
-import os
-os.environ["PARFIVE_HIDE_PROGRESS"] = "True"
-```
 
-# The `sunpy` Package
+## Outline
 
----
+- SunPy Update
+- Survey
+- Office Hours
+- Live Demo
 
-![](static/tour.svg){height="750"}
+## `sunpy` v5.0 {background-image="static/sunpy-docs-page.png" background-size="65%"}
 
-## The package includes...
+## The SunPy Ecosystem
 
-- Data search and retrieval
-- Data structures for timeseries and image data
-- Coordinate frames and conversions
-- and much more!
+:::{.columns}
+:::{.column width="50%"}
+![](static/sunpy-paper-pg1.png)
+:::
+:::{.column width="50%"}
+![](static/sunpy-paper-pg2.png)
+:::
+:::
 
-## Another slide with a plot inline
+## Take the Survey!
 
-```{python}
-#| fig-align: center
-import sunpy.map
-import sunpy.data.sample
+:::{.columns}
+:::{.column width="50%"}
+![](static/bit.ly_sunpyspd2023.png)
+:::
+:::{.column width="50%"}
+- [bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023)
+- One question: *What do you wish you could do with SunPy but can't?* (including the wider SunPy Ecosystem)
+- Use for question and answer during the live demo
+:::
+:::
 
-m = sunpy.map.Map(sunpy.data.sample.AIA_171_IMAGE)
-m.peek()
-```
+## Come to SunPy Office Hours!
 
-## You can also include code
+- 
 
-The code below shows how to create a coordinate in the same frame as the map shown before.
-```{python}
-# | echo: true
-import astropy.coordinates
-import astropy.units as u
-my_coord = astropy.coordinates.SkyCoord(Tx=300*u.arcsec, Ty=500*u.arcsec, frame=m.coordinate_frame)
-print(my_coord)
-```
+## Get in Touch!
