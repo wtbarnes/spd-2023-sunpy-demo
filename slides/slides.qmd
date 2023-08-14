@@ -11,7 +11,7 @@ institute:
 - AU/NASA GSFC
 - Aperio Software
 - BAERI/LMSAL
-- ESA
+- ESA ESTEC
 format:
   revealjs:
     margin: 0
@@ -19,7 +19,7 @@ format:
     height: 100%
     theme: [default, theme/sunpy-theme.scss]
     logo: static/sunpy_logo_landscape.svg
-    footer: "[bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023)"
+    footer: "[bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023) / [github.com/wtbarnes/spd-2023-sunpy-demo](https://github.com/wtbarnes/spd-2023-sunpy-demo)"
 title-slide-attributes:
   data-background-image: static/sunpy_icon.svg
   data-background-position: -100% 50%
@@ -27,14 +27,42 @@ title-slide-attributes:
   data-background-size: 80%
 ---
 
-## Outline
+## SunPy at SPD 
 
-- SunPy Update
-- Survey
-- Office Hours
-- Live Demo
+- **Monday 14 August: "Multi-instrument Data Analysis Workflows with the SunPy Ecosystem"**
+  - Smith Hall 231, 12:00--1:00 PM (now)
+  - SunPy Update
+  - Demo of multi-instrument workflows
+- **Wednesday 16 August: "SunPy Office Hours"**
+  - **Tate Hall 201-20** (same building as poster sessions), **1:00--4:00 PM**
+  - Need help? Have a question?
+  - Want to implement a feature? Fix a bug?
+
+## Take the Survey!
+
+:::{.columns}
+:::{.column width="40%"}
+![](static/sunpyspd2023.svg)
+:::
+:::{.column width="60%"}
+- [bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023)
+- We want your feedback!
+    - What works?
+    - What doesn't?
+- One question: *What do you wish you could do with SunPy but can't?* (including the wider SunPy Ecosystem)
+  - Any other feedback is also great!
+- Completely anonymous
+- Q&A tab for this session
+:::
+:::
 
 ## `sunpy` v5.0 {background-image="static/sunpy-docs-page.png" background-size="65%"}
+
+## The SunPy Ecosystem
+
+::: {layout="[[1], [-1], [-1]]"}
+![](static/sunpy_ecosystem.svg){fig-align="center" width=1300}
+:::
 
 ## The SunPy Ecosystem
 
@@ -47,21 +75,14 @@ title-slide-attributes:
 :::
 :::
 
-## Take the Survey!
-
-:::{.columns}
-:::{.column width="50%"}
-![](static/bit.ly_sunpyspd2023.png)
-:::
-:::{.column width="50%"}
-- [bit.ly/sunpyspd2023](https://bit.ly/sunpyspd2023)
-- One question: *What do you wish you could do with SunPy but can't?* (including the wider SunPy Ecosystem)
-- Use for question and answer during the live demo
-:::
-:::
-
-## Come to SunPy Office Hours!
-
-- 
-
 ## Get in Touch!
+
+- Chat: [app.element.io/#/room/#sunpy:openastronomy.org](https://app.element.io/#/room/#sunpy:openastronomy.org)
+- Documentation: [docs.sunpy.org](https://docs.sunpy.org/)
+- Discourse: [community.openastronomy.org/c/sunpy/](https://community.openastronomy.org/c/sunpy/)
+- Webpage: [sunpy.org](https://sunpy.org)
+  - Help: [sunpy.org/help](https://sunpy.org/help)
+- Community Meetings every Wednesday at 16:00 UTC (12:00 EST) at [sunpy.org/jitsi](https://sunpy.org/jitsi)
+- All slides and notebooks: [github.com/wtbarnes/spd-2023-sunpy-demo](https://github.com/wtbarnes/spd-2023-sunpy-demo)
+- __Come talk to us this week!__
+- Stickers!

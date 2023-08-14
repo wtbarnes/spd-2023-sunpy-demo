@@ -4,6 +4,7 @@ slides/slides.html
 *.fits
 *.asdf
 *.mp4
+*.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
