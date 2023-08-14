@@ -24,15 +24,4 @@ The feedback will be targeted towards the project overall, not necessarily speci
 
 Public link is: <https://bit.ly/sunpyspd2023>
 
-With QR code: ![https://bit.ly/sunpyspd2023](bit.ly_sunpyspd2023.png)
-
-Questions are currently:
-
-- What do you wish you could do with SunPy but can't?
-    - This includes packages within the SunPy ecosystem like aiapy or ndcube.
-      We want to figure out what gaps are missing within the Python libraries that are currently available.
-- What feedback do you have for the SunPy Project?
-- What do you think about SunPy's documentation and examples?
-
-
-One person will be presenting.
+With QR code: ![https://bit.ly/sunpyspd2023](slides/static/sunpyspd2023.svg)
